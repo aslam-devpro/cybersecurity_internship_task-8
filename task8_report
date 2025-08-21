@@ -1,0 +1,87 @@
+📝 Cybersecurity Internship – Task 8 Report
+
+🔒 Task Title
+
+Identify and Remove Suspicious Browser Extensions
+(Adapted to focus on VPN usage for privacy and secure communication)
+
+🎯 Objective
+
+The objective of this task was to understand the role of Virtual Private Networks (VPNs) in ensuring privacy, secure communication, and protection against data interception.
+
+🛠️ Tools Used
+
+ProtonVPN (Free Tier) – official VPN client for Windows
+whatismyipaddress.com – IP verification website
+Web Browser (Brave/Chrome/Firefox/Edge) – for connectivity testing
+
+📑 Methodology
+
+1. Account Setup
+
+   * Created a ProtonVPN account under the Free Plan.
+   * Verified email to activate the account.
+
+2. Installation
+
+   * Downloaded ProtonVPN client for Windows.
+   * Installed the application with default settings.
+
+3. Login & Initialization
+
+   * Logged into the VPN client using Proton account credentials.
+
+4.Connection to VPN Server
+
+   * Selected a free server from the available list.
+   * Established connection → Status changed to Connected.
+
+5.IP Address Verification
+
+   * Checked IP before and after connection using whatismyipaddress.com.
+   * Confirmed successful masking of the real IP.
+   * Captured screenshot as evidence.
+
+6. Encrypted Browsing Test
+
+   * Accessed multiple websites while connected to VPN.
+   * Verified smooth browsing, confirming encrypted tunnel.
+
+7. Disconnection
+
+   * Disconnected VPN from the client.
+   * Rechecked IP → reverted to actual location.
+   * Compared browsing speeds (slightly faster without VPN).
+
+🔐 Security Features Researched
+
+* Encryption Standard: AES-256 with SHA-512 HMAC authentication.
+* VPN Protocols: OpenVPN & WireGuard (fast and secure).
+* DNS Leak Protection: Prevents DNS queries from leaking.
+* No-Logs Policy: ProtonVPN claims not to store browsing activity.
+* Kill Switch (premium feature): Ensures traffic isn’t leaked if VPN disconnects.
+
+📈 Observations
+
+* VPN successfully changed IP and encrypted network traffic.
+* Performance Impact: Minimal speed reduction during browsing.
+* Reliability: Stable connection on free server, though speed capped.
+* Privacy: Increased protection on untrusted networks (e.g., public Wi-Fi).
+
+✅ Benefits of VPN
+
+* Provides privacy by hiding IP and location.
+* Protects data on public Wi-Fi.
+* Prevents ISP tracking.
+* Helps bypass geo-restrictions and censorship.
+
+⚠️ Limitations
+
+* Free plan limited to few servers and lower speeds.
+* VPN provider must be trusted (still manages traffic routing).
+* Some services may block VPN IPs.
+* Connection speeds vary based on server load and distance.
+
+📌 Conclusion
+
+Task 8 successfully demonstrated the use of a VPN for secure communication and privacy protection. ProtonVPN was installed, configured, and tested on Windows. The experiment showed how VPNs encrypt traffic, mask IP addresses, and enhance online security. Despite minor performance trade-offs, VPNs remain a valuable tool for safeguarding data and anonymity in today’s internet landscape.
